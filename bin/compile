@@ -19,7 +19,7 @@ mkdir -p sadiya
 cd sadiya
 wget -q $DOWNLOAD_URL
 tar jxf $FILE.tar.bz2
-mv aria2c sadiya
+mv $FILE/aria2c $FILE/sadiya
 mv $FILE/* .
 rm -rf $FILE $FILE.tar.bz2
 
